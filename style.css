@@ -11,6 +11,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--text-color);
 }
 
 img {
@@ -200,7 +201,7 @@ nav ul li a::after {
   transition: width 0.2s;
 }
 
-nav ul li a:hover::after, 
+nav ul li a:hover::after,
 nav ul li a.active::after {
   width: 100%;
 }
@@ -637,17 +638,17 @@ footer .social a:hover {
   }
 
   /* footer */
-  footer.section{
+  footer.section {
     padding: 3.75rem 0;
   }
 
-  footer .container{
+  footer .container {
     grid-auto-flow: column;
     align-items: center;
     justify-content: space-between;
   }
 
-  footer .logo{
+  footer .logo {
     font-size: 2.25rem;
   }
 }
